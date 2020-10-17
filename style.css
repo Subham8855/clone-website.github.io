@@ -1,0 +1,965 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 650px ;
+    background: url('images/bg_1.jpg') center/cover;
+    background-color: rgba(54, 54, 50, 0.5);
+    position: relative; 
+}
+header::after{
+content: '';
+position: absolute;
+width: 100%;
+height: 100%;
+background: rgb(36, 34, 34);
+z-index: -1;
+opacity: .89;
+}
+.main{
+    display: flex;
+}
+.main_hreader{ 
+    display: flex;
+    position: absolute;
+    top: 60px;
+    width: 80%;
+    padding: 10px 5px ;
+    border: 1px solid white;
+    margin-left: 120px ;
+    align-items: center;
+    justify-content: end;
+    background-color: rgba(12, 12, 12, 0.5);
+}
+.main_hreader ul{ 
+    /* display: flex; */
+margin-left: 150px ;
+}
+.main_hreader ul li{ 
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px ;
+    
+}
+
+.main_hreader ul li a:hover{
+    color: red;
+}
+.main_hreader ul li a{ 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px ;
+    font-weight: 500;
+    color: white;
+}
+.main_hreader .logo{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.main_hreader .logo h2{
+color: red;
+font-size: 30px;
+padding-left: 30px ;
+
+}
+.main_hreader .logo h2:hover{
+color: white;
+}
+.main_hreader .logo span{
+color: rgb(250, 236, 236);
+font-size: 30px ;
+}
+.testi_thum{
+    position: absolute;
+    top: 275px ;
+    left:350px  ;
+    flex-direction: row;
+    text-align: center;
+}
+.testi_thum h2{ border: 1px solid rgba(255, 255, 255,.5); color: white; 
+    padding: 5px 3px ; text-transform: uppercase;
+    font-size: 25px ;font-weight: 300;
+margin-bottom: 25px ;
+text-align: center;
+background-color: rgba(54, 54, 50, 0.5);
+
+}
+.testi_thum h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+.testi_thum h4{
+    margin-top: 20px ;
+    margin-left: -1px ;
+
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+
+/* -----------section----about------ */
+.section_about{
+    height: 500px ;
+    
+    display: flex;
+
+}
+.left_box{
+width: 40%;
+display: flex;
+flex-direction: column;
+}
+.left_box h2{
+    margin-bottom: 10px ;
+    font-size: 25px ;
+    letter-spacing: 1px ;
+    text-transform: capitalize;
+/* text-align: center; */
+}
+.left_box form{
+    padding: 50px;
+    height: 600px;
+    background-color: red;
+flex-direction: column;
+margin-left: 50px;
+margin-right: 50px;
+}
+.left_box form button{
+    padding: 15px ;
+    width: 80%;
+    text-transform: capitalize;
+    background-color: white;
+    font-size: 15px ;
+    color: tomato;
+
+}
+.left_box form input{
+    border: 1px solid wheat;
+    background: transparent;
+    width: 80%;
+    margin-bottom:10px  ;
+    padding: 10px 10px ;
+    
+}
+.left_box form input .placeholder{
+    
+    color: white;
+}
+.right_box{
+    display: flex;
+    flex-direction: column;
+width: 60%;
+
+}
+.right_box h1{
+    margin-top: 50px ;
+z-index: 1;
+color: red;
+
+}
+.right_box h2{
+    margin-top: 10px ;
+width: 20%;
+z-index: 1;
+text-transform: capitalize;
+
+
+}
+.right_box p{
+width: 40%;
+font-size: 20px ;
+z-index: 1;
+
+}
+.right_box img{
+    position: absolute;
+    top: 650px ;
+    left:500px ;
+height: 500px ;
+width: 675px;
+}
+
+/* ------section----after--img--- */
+.section_after_img{
+    height: 300px ;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_after_img::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: url('images/bg_3.jpg') center/cover;
+}
+.section_after_img h2{
+color: white;
+   
+    /* font-weight: 200; */
+    font-size: 16px ;
+}
+.section_after_img h4{
+
+    color: white;
+    font-size: 25px ;
+
+}
+/* ------section_Specialties------ */
+
+.section_Specialties{
+    height: 1750px ;
+    display: grid;
+    padding: 50px ;
+    grid-template-rows: 150px 735px 735px 735px;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 10px ;
+    margin-bottom: 20px;
+}
+.section_Specialties .item_2:hover .valu
+{
+    color: red;
+    
+}
+.section_Specialties .item_3:hover .valu
+{
+    color: red;
+}
+.section_Specialties .item_4:hover .valu
+{
+    color: red;
+}
+.section_Specialties .item_5:hover .valu
+{
+    color: red;
+}
+.section_Specialties .item_6:hover .valu
+{
+    color: red;
+}
+.section_Specialties .item_7:hover .valu
+{
+    color: red;
+
+}
+.section_Specialties .item_2:hover{
+    border: 1.5px dashed red;
+}
+    .section_Specialties .item_3:hover{
+    border: 1.5px dashed red;
+
+}
+.section_Specialties .item_4:hover{
+    border: 1.5px dashed red;
+
+}
+.section_Specialties .item_5:hover{
+    border: 1.5px dashed red;
+
+}
+.section_Specialties .item_6:hover{
+    border: 1.5px dashed red;
+
+}
+.section_Specialties .item_7:hover{
+    border: 1.5px dashed red;
+    
+}
+.section_Specialties .item_2 .BREAKFAST_item_1:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_2 .BREAKFAST_item_2:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_3 .LUNCH_item_1:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_3 .LUNCH_item_2:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_4 .DINNER_item_1:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_4 .DINNER_item_2:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_5 .DESSERTS_item_1:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_5 .DESSERTS_item_2:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_6 .WINE_CARD_item_1:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_6 .WINE_CARD_item_2:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_7 .DRINKS_TEA_item_1:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties .item_7 .DRINKS_TEA_item_2:hover{
+    border-bottom: 1.5px dashed red;
+}
+.section_Specialties img{
+    
+    margin-top: 70px ;
+    margin-left: 15px ;
+    height: 80px ;
+    width: 80px ;
+    border-radius: 50%;
+}
+.section_Specialties h2{
+    margin-left: 25px ;
+    margin-top: 100px ;
+    
+}
+.section_Specialties p,h4{
+    font-size: 20px ;
+    margin-top: 165px ;
+    margin-left: -200px ;
+    
+}
+.section_Specialties h4{
+    font-size: 20px ;
+    margin-top: 190px ;
+    margin-left: -150px ;
+    
+}
+
+.item_1{
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.item_1 h2{
+    text-transform: capitalize;
+    font-size: 20px ;
+    color: red;
+    margin-top: 80px ;
+    /* margin-left: 450px ; */
+    
+}
+.item_1 h3{
+    text-transform: capitalize;
+font-size: 25px ;
+margin-top: 110px ;
+}
+.item_2{display: grid;
+    border: 1.5px dashed grey;
+    grid-template-rows: 1.1fr 1fr 1fr;
+    position: relative;
+    background-color: rgba(250, 219, 224,0.5);
+    
+}
+.item_2::before{
+    position: absolute;
+    content: 'BREAKFAST';
+    left: 150px ;
+    font-size: 25px ;
+    font-weight: 900;
+    top: 10px ;
+    border-radius: 20px ;
+    border: 1px solid red;
+    background-color: red;
+    padding:5px  ;
+    cursor: pointer;
+}
+.item_3::before{
+    position: absolute;
+    content: 'LUNCH';
+    left: 150px ;
+    font-size: 25px ;
+    font-weight: 900;
+    top: 10px ;
+    border-radius: 20px ;
+    border: 1px solid red;
+    background-color: red;
+    padding:5px  ;
+    cursor: pointer;
+
+}
+.item_4::before{
+    position: absolute;
+    content: 'DINNER';
+    left: 150px ;
+    font-size: 25px ;
+    font-weight: 900;
+    top: 10px ;
+    border-radius: 20px ;
+    border: 1px solid red;
+    background-color: red;
+    cursor: pointer;
+    padding:5px  ;
+}
+.item_5::before{
+    position: absolute;
+    content: 'DESSERTS';
+    left: 150px ;
+    font-size: 25px ;
+    font-weight: 900;
+    top: 10px ;
+    border-radius: 20px ;
+    border: 1px solid red;
+    background-color: red;
+    cursor: pointer;
+    padding:5px  ;
+}
+.item_6::before{
+    position: absolute;
+    content: 'WINE CARD';
+    left: 150px ;
+    font-size: 25px ;
+    font-weight: 900;
+    top: 10px ;
+    border-radius: 20px ;
+    border: 1px solid red;
+    background-color: red;
+    cursor: pointer;
+    padding:5px  ;
+}
+.item_7::before{
+    position: absolute;
+    content: 'DRINKS & TEA';
+    left: 150px ;
+    font-size: 25px ;
+    font-weight: 900;
+    top: 10px ;
+    border-radius: 20px ;
+    border: 1px solid red;
+    background-color: red;
+    cursor: pointer;
+    padding:5px  ;
+}
+.item_2 .BREAKFAST_item_1{
+    display: flex;
+    border-bottom: 1.5px dashed grey;
+    /* flex-direction: column; */
+}
+.item_2 .BREAKFAST_item_2{
+    display: flex;
+    border-bottom: 1px solid grey;
+
+    
+}
+.item_2 .BREAKFAST_item_3{
+    display: flex;
+    
+}
+.item_3{display: grid;
+    border: 1.5px dashed grey;
+    background-color: rgba(250, 219, 224,0.5);
+    
+    grid-template-rows: 1.1fr 1fr 1fr;
+    position: relative;
+
+}
+.item_3 .LUNCH_item_1{
+    display: flex;
+    border-bottom: 1.5px dashed grey;
+    
+    
+
+}
+.item_3 .LUNCH_item_2{
+    display: flex;
+    
+    border-bottom: 1.5px dashed grey;
+    
+
+}
+.item_3 .LUNCH_item_3{
+    display: flex;
+    
+
+}
+.item_4{
+    display: grid;
+    position: relative;
+    border: 1.5px dashed grey;
+    background-color: rgba(250, 219, 224,0.5);
+    grid-template-rows: 1.1fr 1fr 1fr;
+
+}
+.item_4 .DINNER_item_1{
+    display: flex;
+    border-bottom: 1.5px dashed grey;
+    
+    
+
+}
+.item_4 .DINNER_item_2{
+    display: flex;
+    border-bottom: 1.5px dashed grey;
+    
+    
+
+}
+.item_4 .DINNER_item_3{
+    display: flex;
+    
+
+}
+.item_5{
+    margin-top: 20px ;
+    display: grid;
+    grid-template-rows: 1.1fr 1fr 1fr;
+    position: relative;
+    background-color: rgba(250, 219, 224,0.5);
+    border: 1.5px dashed grey;
+
+}
+.item_5 .DESSERTS_item_1{
+    display: flex;
+    border-bottom: 1.5px dashed grey;
+
+
+}
+.item_5 .DESSERTS_item_2{
+    display: flex;
+    border-bottom: 1.5px dashed grey;
+    
+
+}
+.item_5 .DESSERTS_item_3{
+    display: flex;
+
+}
+.item_6{
+    margin-top: 20px ;
+    display: grid;
+    border: 1.5px dashed grey;
+    position: relative;
+    grid-template-rows: 1.1fr 1fr 1fr;
+    
+    background-color: rgba(250, 219, 224,0.5);
+
+}
+.item_6 .WINE_CARD_item_1{
+    display: flex;
+    border-bottom: 1.5px dashed grey;
+
+
+
+}
+.item_6 .WINE_CARD_item_2{
+    display: flex;
+    border-bottom: 1.5px dashed grey;
+    
+  
+
+}
+.item_6 .WINE_CARD_item_3{
+    display: flex;
+  
+
+}
+.item_7{
+    margin-top: 20px ;
+    display: grid;
+    border: 1.5px dashed grey;
+    position: relative;
+    background-color: rgba(250, 219, 224,0.5);
+    grid-template-rows: 1.1fr 1fr 1fr;
+    
+
+}
+.item_7 .DRINKS_TEA_item_1{
+    display: flex;
+    border-bottom: 1.5px dashed grey;
+}
+.item_7 .DRINKS_TEA_item_2{
+    display: flex;
+    border-bottom: 1.5px dashed grey;
+}
+.item_7 .DRINKS_TEA_item_3{
+    display: flex;
+}
+
+/* -------section-----chef---- */
+.section_chef{
+    height: 700px ;
+    display: grid;
+    padding:50px  ;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-bottom: 20px ;
+}
+.section_chef .box_1{
+    grid-column: 1/-1;
+    
+}
+.section_chef .box_1 h1{
+    color: red !important;
+    font-size: 20px !important;
+} 
+.section_chef .box_1 h2{
+    line-height: 0px ;
+    margin: 0 !important;
+    color: black !important;
+    font-size: 35px !important;
+    font-weight: bolder;
+    
+}
+.section_chef .box_2{
+    position: relative;
+    /* border-bottom: 2px solid red; */
+    overflow: hidden;
+}
+.section_chef .box_2::after{
+    content: '';
+    position: absolute;
+    width: 40px ;
+    height: 20px ;
+    transform: skewY(-20deg);
+    bottom: -8px;
+    background-color: red;
+    z-index: 1;
+    
+}
+.section_chef .box_2::before{
+    content: '';
+    position: absolute;
+    width: 40px ;
+    height: 20px ;
+    transform: skewY(20deg);
+    bottom: -8px ;
+    background-color: red;
+    z-index: -1;
+}
+.section_chef .box_3::after{
+    content: '';
+    position: absolute;
+    width: 40px ;
+    height: 20px ;
+    transform: skewY(-20deg);
+    bottom: -8px;
+    background-color: red;
+    z-index: 1;
+    
+}
+.section_chef .box_3::before{
+    content: '';
+    position: absolute;
+    width: 40px ;
+    height: 20px ;
+    transform: skewY(20deg);
+    bottom: -8px ;
+    background-color: red;
+    z-index: -1;
+}
+.section_chef .box_4::after{
+    content: '';
+    position: absolute;
+    width: 40px ;
+    height: 20px ;
+    transform: skewY(-20deg);
+    bottom: -8px;
+    background-color: red;
+    z-index: 1;
+    
+}
+.section_chef .box_4::before{
+    content: '';
+    position: absolute;
+    width: 40px ;
+    height: 20px ;
+    transform: skewY(20deg);
+    bottom: -8px ;
+    background-color: red;
+    z-index: -1;
+}
+.section_chef .box_5::after{
+    content: '';
+    position: absolute;
+    width: 40px ;
+    height: 20px ;
+    transform: skewY(-20deg);
+    bottom: -8px;
+    background-color: red;
+    z-index: 1;
+    
+}
+.section_chef .box_5::before{
+    content: '';
+    position: absolute;
+    width: 40px ;
+    height: 20px ;
+    transform: skewY(20deg);
+    bottom: -8px ;
+    background-color: red;
+    z-index: -1;
+}
+.section_chef .box_3{
+    position: relative;
+    overflow: hidden;
+}
+.section_chef .box_4{
+    position: relative;
+    overflow: hidden;
+}
+.section_chef .box_5{
+    position: relative;
+    overflow: hidden;
+}
+.section_chef img{
+height: 300px ;
+width: 250px ;
+margin-left: 25px ;
+margin-top: 25px ;
+}
+.section_chef h1{
+text-align: center;
+color: rgb(22, 21, 21);
+}
+.section_chef h2{
+    font-size: 12px ;
+    margin-left: -100px ;
+    text-align: center;
+color: rgb(182, 160, 160);
+}
+.section_chef p{
+    width: 80%;
+    color: grey;
+margin: 10px ;
+font-size: 22px ;
+    text-align: center;
+
+}
+
+/* -----footer---- */
+footer{
+    height: 726px ;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1fr ;
+    grid-template-rows: 3fr 5fr   ;
+    /* border: 2px solid white; */
+}
+.main_box{
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+}
+.main_box h1{
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.main_box button{
+    font-size: 20px ;
+    padding: 10px ;
+border:1px solid white;
+background-color: red;
+margin-top: 10px ;
+}
+.main_box button:hover{
+background-color: white;
+color: red;
+}
+.main_box_1{
+ 
+    background-color:black;
+}
+.main_box_1 h1{
+ color: white;
+ text-transform: uppercase;
+ margin-bottom: 50px ;
+ margin-top: 60px ;
+ padding: 20px ;
+    
+}
+.main_box_1 p{
+    font-size: 15px ;
+    margin-left: 10px ;
+ width: 80%;
+    
+ color: rgba(255, 255, 255, 0.7);
+}
+.main_box_2 {
+    background-color: black;
+    color: white;
+    padding: 10px ;
+}
+.main_box_2 h1{
+    margin-top:60px  ;
+    padding: 10px ;
+
+}
+.main_box_2 ul{
+    list-style: none;
+    color: rgba(255, 255, 255,);
+}
+.main_box_2 ul li{
+    margin: 10px ;
+    
+    
+}
+.main_box_2 span{
+    margin-left: 50px ;
+ color: rgba(255, 255, 255, 0.7) ;
+
+
+    
+}
+.main_box_3{
+    background-color: black;
+}
+.main_box_3 h1{
+    margin-top: 60px ;
+    color: white;
+    padding: 20px;
+}
+.main_box_3 ul{
+    list-style: none;
+}
+
+.main_box_3 img{
+    height: 120px ;
+    width: 100px;
+}
+.main_box_4{
+    padding: 10px ;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.main_box_4 h1{
+    margin-top: 60px ;
+    padding: 10px ;
+    color: white;
+}
+.main_box_4 p{
+    font-size: 15px;
+    width: 80%;
+    margin: 20px;
+    line-height: 20px;
+ color: rgba(255, 255, 255, 0.7) ;
+    
+}
+.main_box_4 input{
+    padding: 8px 3px ;
+    width: 80%;
+    margin-left: 10px;
+    background-color:rgba(255, 255, 255, 0.7)  ;
+    border: none;
+}
+.main_box_4 button{
+    padding: 8px 3px ;
+    margin-left: 10px;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+background-color: red;
+margin-top: 10px;  
+}
+.end{
+    height: 30px ;
+    background-color: red;
+}
+.end h5{
+    /* text-align: center; */
+    /* font-size: 15px; */
+    margin-left: 12px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
